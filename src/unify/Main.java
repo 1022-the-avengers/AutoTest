@@ -17,6 +17,11 @@ public class Main {
 ////        driver.quit();
 //    }
     public static WebDriver driver;
+    public static String BaseURL = "http://localhost:8088";
+
+    public static String email = "lfl@gmail.com";
+    public static String name = "易伟庭";
+    public static String psw = "123456789";
 
     @BeforeClass
     public static void setUp() throws Exception {

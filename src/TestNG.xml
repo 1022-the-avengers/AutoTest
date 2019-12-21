@@ -3,7 +3,9 @@
 <suite name="Link聊天自动化测试">
     <test name="测试">
         <classes>
+            <!--<class name="register.Register"/>-->
             <class name="login.Login" />
+            <class name="addfriend.Addfriend"/>
         </classes>
     </test>
 </suite> <!-- Default Suite -->

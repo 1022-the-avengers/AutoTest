@@ -8,24 +8,18 @@ import org.testng.annotations.Test;
 import unify.*;
 
 public class Login {
-    String LoginURL = "http://localhost:8088/#/";    //登录网址
-    String SuccessURL = "http://localhost:8088/#/main";    //登录成功网址
-    String email = "fc@gmail.com";
-    String psw = "123456789";
-
+    public String SuccessURL = Main.BaseURL+"/#/home";    //登录成功网址
     @Test
     public void login()throws Exception{
         Main.setUp();
-        Main.driver.get(LoginURL);
-        Thread.sleep(3000);
+        Main.driver.get(Main.BaseURL);
         WebElement email = Main.driver.findElement(By.name("user_login"));
         WebElement psw = Main.driver.findElement(By.name("user_pass"));
         WebElement button = Main.driver.findElement(By.cssSelector(".btn_login"));
-        email.sendKeys(this.email);
-        psw.sendKeys(this.psw);
+        email.sendKeys(Main.email);
+        psw.sendKeys(Main.psw);
         button.click();
-        Thread.sleep(3000);
-
+        Thread.sleep(5000);
         String current_url = Main.driver.getCurrentUrl();
         try {
             Assert.assertEquals(current_url,this.SuccessURL,"登录测试失败");
@@ -33,4 +27,6 @@ public class Login {
             Main.tearDown();
         }
     }
+
+
 }
