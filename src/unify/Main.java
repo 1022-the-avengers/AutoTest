@@ -7,6 +7,8 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
+import java.util.concurrent.TimeUnit;
+
 public class Main {
 
     //    public static void main(String[] args) throws Exception{
@@ -20,14 +22,15 @@ public class Main {
     public static String BaseURL = "http://localhost:8088";
 
     public static String email = "lfl@gmail.com";
-    public static String name = "易伟庭";
     public static String psw = "123456789";
 
     @BeforeClass
     public static void setUp() throws Exception {
+
         System.out.println("启动浏览器");
         System.setProperty("webdriver.chrome.driver","./src/chromedriver.exe");
         driver = new ChromeDriver();
+        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
     }
 
     @AfterClass

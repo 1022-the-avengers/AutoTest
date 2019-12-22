@@ -11,8 +11,6 @@ import unify.Main;
 public class Addfriend {
 
     //被添加账号
-    private String email = "ywt@gmail.com";
-    private String psw = "123456789";
     private String name = "ywt";
     private String mes = "你好";
 
@@ -21,10 +19,7 @@ public class Addfriend {
         Main.driver.findElement(By.linkText("好友列表")).click();
         Main.driver.findElement(By.linkText("新的朋友")).click();
         Thread.sleep(2000);
-
         WebElement search =  Main.driver.findElement(By.className("mint-searchbar-core"));
-
-
         search.sendKeys(name);
         search.sendKeys(Keys.ENTER);
         Thread.sleep(2000);
@@ -32,18 +27,21 @@ public class Addfriend {
 
         Thread.sleep(2000);
         Main.driver.findElement(By.className("mint-field-core")).sendKeys(mes);
-        Main.driver.findElement(By.className("mint-button")).click();
-        Main.driver.findElement(By.linkText("返回")).click();
-
+        Main.driver.findElement(By.className("mint-button--large")).click();
         Thread.sleep(2000);
-        Main.driver.findElement(By.linkText("朋友验证")).click();
-
-        try {
-            Main.driver.findElement(By.linkText(this.name));
+        Main.driver.findElement(By.className("mint-msgbox-confirm")).click();
+        Thread.sleep(2000);
+        Main.driver.findElement(By.cssSelector("label.mint-button-text")).click();
+        Thread.sleep(3000);
+        Main.driver.findElement(By.xpath("//*[text()='朋友验证']")).click();
+        Thread.sleep(3000);
+        try{
+            WebElement a = Main.driver.findElement(By.xpath("//*[text()='ywt']"));
         }catch (Exception e){
-            Assert.fail("添加好友失败！！");
+            Assert.fail("添加好友失败");
             Main.tearDown();
         }
+        Main.driver.findElement(By.cssSelector("label.mint-button-text")).click();
 
     }
 }

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Link聊天自动化测试" duration-ms="43754" started-at="2019-12-22T14:17:18Z" finished-at="2019-12-22T14:18:02Z">
+    <groups>
+    </groups>
+    <test name="测试" duration-ms="43754" started-at="2019-12-22T14:17:18Z" finished-at="2019-12-22T14:18:02Z">
+      <class name="login.Login">
+        <test-method status="PASS" signature="login()[pri:0, instance:login.Login@1c53fd30]" name="login" duration-ms="12551" started-at="2019-12-22T14:17:18Z" finished-at="2019-12-22T14:17:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+      </class> <!-- login.Login -->
+      <class name="chat.Chat">
+        <test-method status="PASS" signature="chat()[pri:0, instance:chat.Chat@282ba1e]" name="chat" duration-ms="358" started-at="2019-12-22T14:17:57Z" finished-at="2019-12-22T14:17:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chat -->
+      </class> <!-- chat.Chat -->
+      <class name="impression.Impression">
+        <test-method status="PASS" signature="impression()[pri:0, instance:impression.Impression@75412c2f]" name="impression" duration-ms="5037" started-at="2019-12-22T14:17:52Z" finished-at="2019-12-22T14:17:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- impression -->
+      </class> <!-- impression.Impression -->
+      <class name="deletefriend.Deletefriend">
+        <test-method status="PASS" signature="chat()[pri:0, instance:deletefriend.Deletefriend@13b6d03]" name="chat" duration-ms="4954" started-at="2019-12-22T14:17:57Z" finished-at="2019-12-22T14:18:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chat -->
+      </class> <!-- deletefriend.Deletefriend -->
+      <class name="addfriend.Addfriend">
+        <test-method status="PASS" signature="addfriend()[pri:0, instance:addfriend.Addfriend@50cbc42f]" name="addfriend" duration-ms="20829" started-at="2019-12-22T14:17:31Z" finished-at="2019-12-22T14:17:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addfriend -->
+      </class> <!-- addfriend.Addfriend -->
+    </test> <!-- 测试 -->
+  </suite> <!-- Link聊天自动化测试 -->
+</testng-results>

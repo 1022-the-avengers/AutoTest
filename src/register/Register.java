@@ -10,13 +10,17 @@ import unify.Main;
 public class Register {
     String SuccessURL = Main.BaseURL+"/#/";
     String RegisterURL = Main.BaseURL+"/#/register";
+
+    String email = "4@gmail.com";
+    String name = "1";
+    String psw = "123456789";
     @Test
     public void RegisterAndLogin()throws Exception{
         Main.setUp();
         Main.driver.get(RegisterURL);
-        Main.driver.findElement(By.name("user_register")).sendKeys(Main.email);
-        Main.driver.findElement(By.name("user_name")).sendKeys(Main.name);
-        Main.driver.findElement(By.name("user_pass")).sendKeys(Main.psw);
+        Main.driver.findElement(By.name("user_register")).sendKeys(this.email);
+        Main.driver.findElement(By.name("user_name")).sendKeys(this.name);
+        Main.driver.findElement(By.name("user_pass")).sendKeys(this.psw);
         Main.driver.findElement(By.cssSelector(".btn_register")).click();
         Thread.sleep(3000);
         String current_url = Main.driver.getCurrentUrl();
@@ -25,5 +29,6 @@ public class Register {
         }catch (Exception e){
             Main.tearDown();
         }
+        Main.tearDown();
     }
 }

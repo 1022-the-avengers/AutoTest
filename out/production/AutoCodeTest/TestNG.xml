@@ -6,6 +6,9 @@
             <!--<class name="register.Register"/>-->
             <class name="login.Login" />
             <class name="addfriend.Addfriend"/>
+            <class name="impression.Impression"/>
+            <class name="chat.Chat"/>
+            <class name="deletefriend.Deletefriend"/>
         </classes>
     </test>
 </suite> <!-- Default Suite -->

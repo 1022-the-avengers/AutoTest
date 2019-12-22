@@ -26,6 +26,7 @@ public class Login {
         }catch (Exception e){
             Main.tearDown();
         }
+        Main.driver.findElement(By.linkText("好友列表")).click();
     }
 
 

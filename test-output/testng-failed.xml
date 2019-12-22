@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Link聊天自动化测试]">
+  <test thread-count="5" name="测试(failed)">
+    <classes>
+      <class name="deletefriend.Deletefriend">
+        <methods>
+          <include name="chat"/>
+        </methods>
+      </class> <!-- deletefriend.Deletefriend -->
+      <class name="addfriend.Addfriend">
+        <methods>
+          <include name="addfriend"/>
+        </methods>
+      </class> <!-- addfriend.Addfriend -->
+      <class name="chat.Chat">
+        <methods>
+          <include name="chat"/>
+        </methods>
+      </class> <!-- chat.Chat -->
+      <class name="impression.Impression">
+        <methods>
+          <include name="impression"/>
+        </methods>
+      </class> <!-- impression.Impression -->
+    </classes>
+  </test> <!-- 测试(failed) -->
+</suite> <!-- Failed suite [Link聊天自动化测试] -->

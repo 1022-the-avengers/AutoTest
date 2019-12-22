@@ -2,16 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="90d23920-d5a0-444d-910a-f437af3c0733" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/addfriend/Addfriend.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/impression/Impression.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/register/Register.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chat/Chat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/deletefriend/Deletefriend.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/~$测试用例文档.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/测试用例文档.docx" beforeDir="false" afterPath="$PROJECT_DIR$/doc/测试用例文档.docx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/AutoCodeTest/TestNG.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AutoCodeTest/TestNG.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AutoCodeTest/addfriend/Addfriend.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AutoCodeTest/addfriend/Addfriend.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/AutoCodeTest/login/Login.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AutoCodeTest/login/Login.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AutoCodeTest/register/Register.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AutoCodeTest/register/Register.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/AutoCodeTest/unify/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AutoCodeTest/unify/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/TestNG.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestNG.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/addfriend/Addfriend.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/addfriend/Addfriend.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/impression/Impression.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/impression/Impression.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/login/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/login/Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/register/Register.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/register/Register.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/unify/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unify/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -26,8 +31,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/unify/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="79">
-              <caret line="19" column="52" selection-start-line="19" selection-start-column="52" selection-end-line="19" selection-end-column="52" />
+            <state relative-caret-position="228">
+              <caret line="32" column="52" selection-start-line="32" selection-start-column="52" selection-end-line="32" selection-end-column="52" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -39,16 +44,16 @@
         <entry file="file://$PROJECT_DIR$/src/TestNG.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="133">
-              <caret line="7" column="47" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
+              <caret line="7" selection-start-line="7" selection-end-line="7" selection-end-column="47" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/addfriend/Addfriend.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="45" column="9" lean-forward="true" selection-start-line="45" selection-start-column="9" selection-end-line="45" selection-end-column="9" />
+            <state relative-caret-position="212">
+              <caret line="18" selection-start-line="18" selection-end-line="18" selection-end-column="61" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -57,10 +62,58 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/lib/testng-6.14.3.jar!/org/testng/internal/Invoker.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="7771">
+              <caret line="452" selection-start-line="452" selection-end-line="452" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/lib/client-combined-3.141.59.jar!/org/openqa/selenium/By.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="437">
+              <caret line="46" selection-start-line="46" selection-end-line="46" />
+              <folding>
+                <element signature="e#1295#1296#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/impression/Impression.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+            <state relative-caret-position="418">
+              <caret line="22" column="36" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/chat/Chat.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="20" column="66" selection-start-line="20" selection-start-column="66" selection-end-line="20" selection-end-column="66" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/deletefriend/Deletefriend.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="155">
+              <caret line="16" column="38" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -68,8 +121,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/register/Register.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="532">
-              <caret line="28" column="1" lean-forward="true" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
+            <state relative-caret-position="133">
+              <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -80,8 +133,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/login/Login.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="14" column="38" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
+            <state relative-caret-position="231">
+              <caret line="28" column="61" selection-start-line="28" selection-start-column="61" selection-end-line="28" selection-end-column="61" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -110,15 +163,19 @@
         <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/register/register.java" />
         <option value="$PROJECT_DIR$/src/addfriend/addfriend.java" />
+        <option value="$PROJECT_DIR$/src/chat/chat.java" />
         <option value="$PROJECT_DIR$/src/register/Register.java" />
-        <option value="$PROJECT_DIR$/src/TestNG.xml" />
-        <option value="$PROJECT_DIR$/src/unify/Main.java" />
-        <option value="$PROJECT_DIR$/src/login/Login.java" />
         <option value="$PROJECT_DIR$/src/addfriend/Addfriend.java" />
+        <option value="$PROJECT_DIR$/src/login/Login.java" />
+        <option value="$PROJECT_DIR$/src/impression/Impression.java" />
+        <option value="$PROJECT_DIR$/src/chat/Chat.java" />
+        <option value="$PROJECT_DIR$/src/TestNG.xml" />
+        <option value="$PROJECT_DIR$/src/deletefriend/Deletefriend.java" />
+        <option value="$PROJECT_DIR$/src/unify/Main.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="85" />
     <option name="y" value="25" />
     <option name="width" value="1750" />
@@ -131,11 +188,30 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="AutoCodeTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AutoCodeTest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AutoCodeTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AutoCodeTest" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AutoCodeTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AutoCodeTest" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AutoCodeTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AutoCodeTest" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
               <item name="AutoCodeTest" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -153,13 +229,19 @@
               <item name="AutoCodeTest" type="b2602c69:ProjectViewProjectNode" />
               <item name="AutoCodeTest" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="login" type="462c0819:PsiDirectoryNode" />
+              <item name="chat" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="AutoCodeTest" type="b2602c69:ProjectViewProjectNode" />
               <item name="AutoCodeTest" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="register" type="462c0819:PsiDirectoryNode" />
+              <item name="deletefriend" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AutoCodeTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AutoCodeTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="impression" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="AutoCodeTest" type="b2602c69:ProjectViewProjectNode" />
@@ -171,13 +253,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1576927846144" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1577024604344" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -202,7 +283,15 @@
     <configuration name="D:/聊天系统2/AutoCodeTest/src/TestNG.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AutoCodeTest" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/src/TestNG.xml" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="SUITE" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="USE_DEFAULT_REPORTERS" value="true" />
+      <option name="PROPERTIES_FILE" value="" />
       <properties />
       <listeners />
       <method v="2">
@@ -284,50 +373,50 @@
       <workItem from="1576475596356" duration="597000" />
       <workItem from="1576476952896" duration="36000" />
       <workItem from="1576803182653" duration="288000" />
-      <workItem from="1576916621529" duration="6174000" />
+      <workItem from="1576916621529" duration="14532000" />
+      <workItem from="1577019638435" duration="4971000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="D__聊天系统2_AutoCodeTest_src_TestNG_xml - 2019.12.21 at 17h 04m 01s.xml">
+    <history-entry file="D__聊天系统2_AutoCodeTest_src_TestNG_xml - 2019.12.22 at 21h 58m 15s.xml">
       <configuration name="D:/聊天系统2/AutoCodeTest/src/TestNG.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="D__聊天系统2_AutoCodeTest_src_TestNG_xml - 2019.12.21 at 17h 05m 19s.xml">
+    <history-entry file="D__聊天系统2_AutoCodeTest_src_TestNG_xml - 2019.12.22 at 22h 02m 22s.xml">
       <configuration name="D:/聊天系统2/AutoCodeTest/src/TestNG.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="D__聊天系统2_AutoCodeTest_src_TestNG_xml - 2019.12.21 at 17h 42m 40s.xml">
+    <history-entry file="D__聊天系统2_AutoCodeTest_src_TestNG_xml - 2019.12.22 at 22h 03m 42s.xml">
       <configuration name="D:/聊天系统2/AutoCodeTest/src/TestNG.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="D__聊天系统2_AutoCodeTest_src_TestNG_xml - 2019.12.21 at 17h 43m 49s.xml">
+    <history-entry file="D__聊天系统2_AutoCodeTest_src_TestNG_xml - 2019.12.22 at 22h 05m 08s.xml">
       <configuration name="D:/聊天系统2/AutoCodeTest/src/TestNG.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="D__聊天系统2_AutoCodeTest_src_TestNG_xml - 2019.12.21 at 17h 45m 44s.xml">
+    <history-entry file="D__聊天系统2_AutoCodeTest_src_TestNG_xml - 2019.12.22 at 22h 06m 56s.xml">
       <configuration name="D:/聊天系统2/AutoCodeTest/src/TestNG.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="D__聊天系统2_AutoCodeTest_src_TestNG_xml - 2019.12.21 at 17h 45m 54s.xml">
+    <history-entry file="D__聊天系统2_AutoCodeTest_src_TestNG_xml - 2019.12.22 at 22h 08m 57s.xml">
       <configuration name="D:/聊天系统2/AutoCodeTest/src/TestNG.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="D__聊天系统2_AutoCodeTest_src_TestNG_xml - 2019.12.21 at 17h 46m 25s.xml">
+    <history-entry file="D__聊天系统2_AutoCodeTest_src_TestNG_xml - 2019.12.22 at 22h 11m 14s.xml">
       <configuration name="D:/聊天系统2/AutoCodeTest/src/TestNG.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="D__聊天系统2_AutoCodeTest_src_TestNG_xml - 2019.12.21 at 17h 48m 09s.xml">
+    <history-entry file="D__聊天系统2_AutoCodeTest_src_TestNG_xml - 2019.12.22 at 22h 13m 21s.xml">
       <configuration name="D:/聊天系统2/AutoCodeTest/src/TestNG.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="D__聊天系统2_AutoCodeTest_src_TestNG_xml - 2019.12.21 at 19h 23m 20s.xml">
+    <history-entry file="D__聊天系统2_AutoCodeTest_src_TestNG_xml - 2019.12.22 at 22h 15m 57s.xml">
       <configuration name="D:/聊天系统2/AutoCodeTest/src/TestNG.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="D__聊天系统2_AutoCodeTest_src_TestNG_xml - 2019.12.21 at 19h 24m 06s.xml">
+    <history-entry file="D__聊天系统2_AutoCodeTest_src_TestNG_xml - 2019.12.22 at 22h 18m 03s.xml">
       <configuration name="D:/聊天系统2/AutoCodeTest/src/TestNG.xml" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15496000" />
+    <option name="totallyTimeSpent" value="28825000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28284183" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28686327" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -336,8 +425,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3286119" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3286119" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -362,10 +451,57 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="jar://$PROJECT_DIR$/lib/testng-6.14.3.jar!/org/testng/internal/Invoker.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7771">
+          <caret line="452" selection-start-line="452" selection-end-line="452" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/client-combined-3.141.59.jar!/org/openqa/selenium/By.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
+          <folding>
+            <element signature="e#1295#1296#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/register/Register.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="28" column="1" lean-forward="true" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
+        <state relative-caret-position="133">
+          <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/addfriend/Addfriend.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="18" selection-start-line="18" selection-end-line="18" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/login/Login.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="28" column="61" selection-start-line="28" selection-start-column="61" selection-end-line="28" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chat/Chat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="20" column="66" selection-start-line="20" selection-start-column="66" selection-end-line="20" selection-end-column="66" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -375,14 +511,14 @@
     <entry file="file://$PROJECT_DIR$/src/TestNG.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
-          <caret line="7" column="47" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
+          <caret line="7" selection-start-line="7" selection-end-line="7" selection-end-column="47" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/login/Login.java">
+    <entry file="file://$PROJECT_DIR$/src/deletefriend/Deletefriend.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="14" column="38" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
+        <state relative-caret-position="155">
+          <caret line="16" column="38" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -391,8 +527,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/unify/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="79">
-          <caret line="19" column="52" selection-start-line="19" selection-start-column="52" selection-end-line="19" selection-end-column="52" />
+        <state relative-caret-position="228">
+          <caret line="32" column="52" selection-start-line="32" selection-start-column="52" selection-end-line="32" selection-end-column="52" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -401,15 +537,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/impression/Impression.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/addfriend/Addfriend.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="45" column="9" lean-forward="true" selection-start-line="45" selection-start-column="9" selection-end-line="45" selection-end-column="9" />
+        <state relative-caret-position="418">
+          <caret line="22" column="36" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
